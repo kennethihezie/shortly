@@ -1,12 +1,12 @@
 import Hero from '@/components/Hero/Hero'
-import Navbar from '@/components/NavBar/NavBar'
-import Image from 'next/image'
+import Shorten from '@/components/Shorten/Shorten'
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
+
+      <Shorten />
     </>
   )
 }
